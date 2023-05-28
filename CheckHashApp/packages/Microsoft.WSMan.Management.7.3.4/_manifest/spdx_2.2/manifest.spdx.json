@@ -1,0 +1,186 @@
+{
+  "files": [
+    {
+      "fileName": "./ref/net7.0/Microsoft.WSMan.Management.dll",
+      "SPDXID": "SPDXRef-File--ref-net7.0-Microsoft.WSMan.Management.dll-488E85C8C56CD4F2559BC3129AD7A6141DE0A2E9",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "042681b5164a81ec190dfd0a38cd314c14aeca66f3b81c40aaabefacd44a2ad8"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "488e85c8c56cd4f2559bc3129ad7a6141de0a2e9"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ref/net7.0/Microsoft.WSMan.Management.xml",
+      "SPDXID": "SPDXRef-File--ref-net7.0-Microsoft.WSMan.Management.xml-DEEFD7DD9F1A9F6F9DDC4E73DB128D4AD1E78DBC",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7eb17cfa753fd6a6983b8bf32632125b9c985633cc330bead7fb25f280951f93"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "deefd7dd9f1a9f6f9ddc4e73db128d4ad1e78dbc"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./runtimes/win/lib/net7.0/Microsoft.WSMan.Management.dll",
+      "SPDXID": "SPDXRef-File--runtimes-win-lib-net7.0-Microsoft.WSMan.Management.dll-56F600F19514BB2E14D2F4F6C0E60C05D41B8FF2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "245b8903d4de8dff51e790ef0d2ee71305cd6dedf1c9caf711f63bf004eebabb"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "56f600f19514bb2e14d2f4f6c0e60c05d41b8ff2"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    }
+  ],
+  "packages": [
+    {
+      "name": "Microsoft.WSMan.Runtime",
+      "SPDXID": "SPDXRef-Package-21DD6FA97EAEBB85AC84748B488D6B1CD4B233D1FB5353DDD0EE3E9C9C391736",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "7.3.4",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/Microsoft.WSMan.Runtime@7.3.4"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "System.Management.Automation",
+      "SPDXID": "SPDXRef-Package-0578F31E1FA9AE60310F51B5664D147E9610BF46BBB490A31053FF8DBF5F5B97",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "7.3.4",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/System.Management.Automation@7.3.4"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "System.ServiceProcess.ServiceController",
+      "SPDXID": "SPDXRef-Package-53A0E3A6DC5DFD0E2D5CB3A55E4017731F4BBD0B83C3BA24FC1C7C3A6F1CC207",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "7.0.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/System.ServiceProcess.ServiceController@7.0.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "Microsoft.WSMan.Management",
+      "SPDXID": "SPDXRef-RootPackage",
+      "downloadLocation": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "b902cf8618831cf795b318ce8df4ac17f57cfe95"
+      },
+      "filesAnalyzed": true,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "7.3.4",
+      "supplier": "Organization: Microsoft",
+      "hasFiles": [
+        "SPDXRef-File--runtimes-win-lib-net7.0-Microsoft.WSMan.Management.dll-56F600F19514BB2E14D2F4F6C0E60C05D41B8FF2",
+        "SPDXRef-File--ref-net7.0-Microsoft.WSMan.Management.xml-DEEFD7DD9F1A9F6F9DDC4E73DB128D4AD1E78DBC",
+        "SPDXRef-File--ref-net7.0-Microsoft.WSMan.Management.dll-488E85C8C56CD4F2559BC3129AD7A6141DE0A2E9"
+      ]
+    }
+  ],
+  "externalDocumentRefs": [],
+  "relationships": [
+    {
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-53A0E3A6DC5DFD0E2D5CB3A55E4017731F4BBD0B83C3BA24FC1C7C3A6F1CC207",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-21DD6FA97EAEBB85AC84748B488D6B1CD4B233D1FB5353DDD0EE3E9C9C391736",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-0578F31E1FA9AE60310F51B5664D147E9610BF46BBB490A31053FF8DBF5F5B97",
+      "spdxElementId": "SPDXRef-RootPackage"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "Microsoft.WSMan.Management 7.3.4",
+  "documentNamespace": "https://sbom.microsoft/1:2QSF7qZlbE-F7QrUJlEo7g:pHp_nUFvDUijZ4LrJ4RhoQ/696:357386/Microsoft.WSMan.Management:7.3.4:BnJ_syxixUa9MXboHsRSDQ",
+  "creationInfo": {
+    "created": "2023-04-12T21:32:43Z",
+    "creators": [
+      "Organization: Microsoft",
+      "Tool: Microsoft.SBOMTool-0.3.3"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-RootPackage"
+  ]
+}

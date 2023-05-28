@@ -1,0 +1,134 @@
+{
+  "files": [
+    {
+      "fileName": "./ref/net7.0/Microsoft.PowerShell.Commands.Diagnostics.xml",
+      "SPDXID": "SPDXRef-File--ref-net7.0-Microsoft.PowerShell.Commands.Diagnostics.xml-9B075E8E54FE0F398F394A51CAF71ADFC67A8517",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "32afef27184443c0a7e3693270eb724a6e1a4a268258624f63f034cbef686f9d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9b075e8e54fe0f398f394a51caf71adfc67a8517"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ref/net7.0/Microsoft.PowerShell.Commands.Diagnostics.dll",
+      "SPDXID": "SPDXRef-File--ref-net7.0-Microsoft.PowerShell.Commands.Diagnostics.dll-D3759ED50B100738B82F7528298DF3E0C44EB7CB",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e2ca796d385bf4077814bfa1fc001287dcc98d762f0b0bcc5ca9076fa6a09ddc"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d3759ed50b100738b82f7528298df3e0c44eb7cb"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./runtimes/win/lib/net7.0/Microsoft.PowerShell.Commands.Diagnostics.dll",
+      "SPDXID": "SPDXRef-File--runtimes-win-lib-net7.0-Microsoft.PowerShell.Commands.Diagnostics.dll-6EF4FB4BAB7ABC7E007A320D30ED67381149C850",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "737c1339304091a842306eddfbbc10d590964ebe76ba580fa4e520582e4936be"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6ef4fb4bab7abc7e007a320d30ed67381149c850"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    }
+  ],
+  "packages": [
+    {
+      "name": "System.Management.Automation",
+      "SPDXID": "SPDXRef-Package-0578F31E1FA9AE60310F51B5664D147E9610BF46BBB490A31053FF8DBF5F5B97",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "7.3.4",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/System.Management.Automation@7.3.4"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "Microsoft.PowerShell.Commands.Diagnostics",
+      "SPDXID": "SPDXRef-RootPackage",
+      "downloadLocation": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "6ffb6e85ce0c011776570662df434ed234280662"
+      },
+      "filesAnalyzed": true,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "7.3.4",
+      "supplier": "Organization: Microsoft",
+      "hasFiles": [
+        "SPDXRef-File--ref-net7.0-Microsoft.PowerShell.Commands.Diagnostics.dll-D3759ED50B100738B82F7528298DF3E0C44EB7CB",
+        "SPDXRef-File--runtimes-win-lib-net7.0-Microsoft.PowerShell.Commands.Diagnostics.dll-6EF4FB4BAB7ABC7E007A320D30ED67381149C850",
+        "SPDXRef-File--ref-net7.0-Microsoft.PowerShell.Commands.Diagnostics.xml-9B075E8E54FE0F398F394A51CAF71ADFC67A8517"
+      ]
+    }
+  ],
+  "externalDocumentRefs": [],
+  "relationships": [
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-0578F31E1FA9AE60310F51B5664D147E9610BF46BBB490A31053FF8DBF5F5B97",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "Microsoft.PowerShell.Commands.Diagnostics 7.3.4",
+  "documentNamespace": "https://sbom.microsoft/1:2QSF7qZlbE-F7QrUJlEo7g:pHp_nUFvDUijZ4LrJ4RhoQ/696:357386/Microsoft.PowerShell.Commands.Diagnostics:7.3.4:e-OncW4EzE2V57Gj1pmL_Q",
+  "creationInfo": {
+    "created": "2023-04-12T21:29:08Z",
+    "creators": [
+      "Organization: Microsoft",
+      "Tool: Microsoft.SBOMTool-0.3.3"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-RootPackage"
+  ]
+}
